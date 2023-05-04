@@ -59,6 +59,10 @@ group :development do
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
+  gem "devise"
+  gem 'activeadmin'
+  gem 'inherited_resources'
+  gem 'sassc'
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"

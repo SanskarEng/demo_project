@@ -1,0 +1,7 @@
+
+<% @users.each do |a|%>
+<a href="/catagorys/<%= a.id %>">
+ <%= a.catagory_name %> <br>
+<% end %>
+
+<%= link_to "Createnew Product", new_product_path %>
